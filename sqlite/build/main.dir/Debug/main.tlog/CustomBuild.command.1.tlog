@@ -1,0 +1,10 @@
+^D:\CODING\ATOM\CPP\OTUS_PROF\EXCERCISES\SQLITE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Coding/Atom/cpp/OTUS_prof/excercises/sqlite -BD:/Coding/Atom/cpp/OTUS_prof/excercises/sqlite/build --check-stamp-file D:/Coding/Atom/cpp/OTUS_prof/excercises/sqlite/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^D:\CODING\ATOM\CPP\OTUS_PROF\EXCERCISES\SQLITE\BUILD\CMAKEFILES\962E4676FE442711580A4F3AA83E94DA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Coding/Atom/cpp/OTUS_prof/excercises/sqlite -BD:/Coding/Atom/cpp/OTUS_prof/excercises/sqlite/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Coding/Atom/cpp/OTUS_prof/excercises/sqlite/build/sqlite.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

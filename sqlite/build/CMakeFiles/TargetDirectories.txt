@@ -1,0 +1,3 @@
+D:/Coding/Atom/cpp/OTUS_prof/excercises/sqlite/build/CMakeFiles/main.dir
+D:/Coding/Atom/cpp/OTUS_prof/excercises/sqlite/build/CMakeFiles/ALL_BUILD.dir
+D:/Coding/Atom/cpp/OTUS_prof/excercises/sqlite/build/CMakeFiles/ZERO_CHECK.dir
